@@ -4,10 +4,10 @@ import dayBg from './assets/day.jpg'
 
 function App() {
   return (
-    <div className="App" style={{backgroundImage: `url(${dayBg})`}}>
+    <div className="app" style={{backgroundImage: `url(${dayBg})`}}>
       <div className="overlay">
-        <div className='container'>
-          <div className='section setion_inputs'>
+        {/* <div className="container"> */}
+          <div className='section setion__inputs'>
             <input type="text" name='city' placeholder='Enter City'/>
             <button>°F</button>
           </div>
@@ -23,7 +23,7 @@ function App() {
             {/* bottom decription */}
           
         </div>
-      </div>
+      {/* </div> */}
     </div>
     </div>
   );
